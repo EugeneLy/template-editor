@@ -1,0 +1,122 @@
+html {
+    font-family: Arial;
+    color: #333;
+}
+
+.templates {
+    border-collapse: collapse;
+    min-width: 350px;
+    margin: auto;
+}
+
+.success {
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 10px;
+    margin: 20px auto 0;
+    width: 500px;
+}
+
+.templates th {
+    background: #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.templates td {
+    padding: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+a:hover {
+    color: #99979c;
+}
+
+.link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.template {
+    border-radius: 3px;
+    border: 2px solid #6c757d;
+    border-bottom-width: 1px;
+    margin: auto;
+    max-width: 500px;
+}
+
+.editable {
+    border-bottom: 1px solid #6c757d;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    min-height: 17px;
+}
+
+.edit-form {
+    box-sizing: border-box;
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    padding: 7px 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.edit-form input{
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 3px;
+    color: #464a4c;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 14px;
+    height: 22px;
+    line-height: 1.25;
+    vertical-align: middle;
+    width: 140px;
+}
+
+.edit-form input:focus {
+    color: #464a4c;
+    background-color: #fff;
+    border-color: #5cb3fd;
+    outline: 0;
+}
+.edit-form button {
+    border-radius: 3px;
+    border: 1px solid transparent;
+    padding: 3px 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 15px;
+    background-color: #0275d8;
+    border-color: #0275d8;
+    line-height: 1.25;
+    vertical-align: middle;
+}
+
+.edit-form button.close {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #eb9316;
+}
+
+.edit-form button.close:hover {
+    background-color: #ecae1e;
+    border-color: #eb9316;
+}
+
+.edit-form button:hover {
+    background-color: #025aa5;
+    border-color: #01549b;
+}
